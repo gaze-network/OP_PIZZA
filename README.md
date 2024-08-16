@@ -14,9 +14,9 @@
 OP_PIZZA token
 
 ## Contract Addresses
-| Network        | Contract Address                               |
-| -------------- | ---------------------------------------------- |
-| OP_NET Regtest | `bcrt1qpllc7z6u0r3797pfmyfthrg59hh53tq27q9jh8` |
+| Network        | Contract Address |
+| -------------- | --- |
+| OP_NET Regtest | [bcrt1qpllc7z6u0r3797pfmyfthrg59hh53tq27q9jh8](https://opscan.org/accounts/bcrt1qpllc7z6u0r3797pfmyfthrg59hh53tq27q9jh8) |
 
 ## Getting Started
 
