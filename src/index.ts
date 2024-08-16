@@ -1,5 +1,5 @@
 import { ABIRegistry, Blockchain } from '@btc-vision/btc-runtime/runtime';
-import { MyToken } from './contracts/MyToken';
+import { OP_PIZZA } from './contracts/OP_PIZZA';
 
 export function defineSelectors(): void {
     /** OP_NET */
@@ -26,7 +26,7 @@ export function defineSelectors(): void {
     ABIRegistry.defineMethodSelector('airdrop', true);
 }
 
-Blockchain.contract = () => new MyToken();
+Blockchain.contract = () => new OP_PIZZA();
 
 // VERY IMPORTANT
 export * from '@btc-vision/btc-runtime/runtime/exports';
